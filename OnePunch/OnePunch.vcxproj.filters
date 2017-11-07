@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="core">
+      <UniqueIdentifier>{0e912ce2-b934-487b-b6d9-b4d7bd0299b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unit">
+      <UniqueIdentifier>{14b9dd9e-ed32-44fd-8c03-6163cd3e96b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\ui">
+      <UniqueIdentifier>{9b318b1a-1e69-4d04-ba68-98b8961b440e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="battleSystem">
+      <UniqueIdentifier>{4e637ba8-a797-47b2-ba74-e7aa8be048f3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="core\Camera.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\CmdLine.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\D3DDevice.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\Input.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\SkyBox.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\Terrain.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="unit\Box.cpp">
+      <Filter>unit</Filter>
+    </ClCompile>
+    <ClCompile Include="unit\MagicBox.cpp">
+      <Filter>unit</Filter>
+    </ClCompile>
+    <ClCompile Include="unit\Map.cpp">
+      <Filter>unit</Filter>
+    </ClCompile>
+    <ClCompile Include="GameApp.cpp" />
+    <ClCompile Include="winMain.cpp" />
+    <ClCompile Include="core\MainWnd.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\TextureCache.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\Texture.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\UI\Sprite.cpp">
+      <Filter>core\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="core\Line.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\Light.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\Material.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\BillBoard.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\Mesh.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\Node.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\ParticleSystem.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\ui\Text.cpp">
+      <Filter>core\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="core\ui\MyButton.cpp">
+      <Filter>core\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>battleSystem</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="core\Camera.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\CmdLine.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\D3DDevice.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\Input.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\SkyBox.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\Terrain.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="unit\Box.h">
+      <Filter>unit</Filter>
+    </ClInclude>
+    <ClInclude Include="unit\MagicBox.h">
+      <Filter>unit</Filter>
+    </ClInclude>
+    <ClInclude Include="unit\Map.h">
+      <Filter>unit</Filter>
+    </ClInclude>
+    <ClInclude Include="GameApp.h" />
+    <ClInclude Include="core\MainWnd.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\TextureCache.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\Texture.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="core\UI\Sprite.h">
+      <Filter>core\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="core\Line.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\Light.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\Material.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\BillBoard.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\Mesh.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\Node.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\ParticleSystem.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\ui\Text.h">
+      <Filter>core\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="core\ui\MyButton.h">
+      <Filter>core\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="Collide.h" />
+    <ClInclude Include="Monster.h">
+      <Filter>battleSystem</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="OnePunch.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Bin\icon\icon1.ico" />
+  </ItemGroup>
+</Project>
